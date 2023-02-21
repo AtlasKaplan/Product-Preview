@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 680px;
+    margin: 70px auto 30px;
+    border-radius: 15px;
+    width: 335px;;
+}
+
+.perfumeimg {
+    width: 335px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    margin: 0 20px;
+}
+
+.container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin: 20px 10px 20px 20px;
+    letter-spacing: 0.18rem;
+    line-height: 1.3rem;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.precios {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.precio1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.precio2 {
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+    font-size: 0.9rem ;
+}
+
+
+button {
+        border-radius: 10px;
+        height: 50px;
+        line-height: 0;
+        color: #FFFFFF;
+        width: 300px;
+        font-size: 16px;
+        padding:auto 38px;
+        background-color: #3C8067;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 20px    ;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media (min-width:1440px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+        width: 750px;
+        margin-top: 150px;
+} 
+h2 {
+    margin: 30px 20px;
+}
+
+.texto {
+    margin: 30px 25px;
+}
+
+
+.perfumeimg {
+    display: none;
+}
+
+.perfumeimg2 {
+    width: 375px;
+    height: 550px;
+    border-radius: 15px 0 0 15px;
+}
+
+.imagen {
+    height: 600px;
+}
+
+.precios {
+    margin: 60px 20px;
+}
+
+}
+
+
+@media (width:375px) {
+    .perfumeimg2 {
+        display: none;
+    }
+
+    
+}
